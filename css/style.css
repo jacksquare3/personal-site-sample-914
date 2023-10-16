@@ -1,0 +1,160 @@
+.top-container{
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.yellow-porsche{
+  width: 100%;
+  
+}
+.title-text{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+
+}
+
+
+h1{
+  
+  color: #a6e1e6;
+  font-size: 4.5vw;
+  line-height: 1em;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  
+  
+}
+@media screen and (min-width: 1000px) {
+h2{
+  position: relative;
+  color: #a6e1e6;
+  font-size: 2.3vw;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h2{
+    position: relative;
+    color: #a6e1e6;
+    font-size: 2rem;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+  }
+@media screen and (max-width: 600px) {
+h3{
+  position: relative;
+  color: #5A8F7B;
+  font-size: 12px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  }   
+}
+@media screen and (min-width: 600px) {
+  h3{
+    position: relative;
+    color: #5A8F7B;
+    font-size: 1.6vw;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    }   
+  }
+
+.middle-container{
+  margin: 100px 0;;
+  position: relative;
+  text-align: center;
+  
+}
+
+.ccheng-profile{
+display: block;
+border-radius: 50%;
+width: 20vw;
+max-width: 210px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+p{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  color: #355764;
+  
+}
+@media screen and (max-width: 1200px) {
+  p{
+    font-size: 11px;
+    color: #355764;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+  }
+
+.skl{
+  display: block;
+  padding-top: 100px;
+}
+
+.tool-1{
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 30px;
+  width: 80vw;
+  margin: 100px auto 0 auto;
+  text-align: left;
+}
+.btn{
+  background-color: #FFEA11;
+  border-radius: 10px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #355764;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+
+}
+
+a{
+  
+  position: relative;
+}
+
+
+.buttom-container{
+  display: flex;
+  justify-content: center;
+  background-color: #FFEA11;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+
+}
+
+.foot-link{
+  color: #355764;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 20px;
+  position: relative;
+  text-decoration: none;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.copy-right{
+  display: flex;
+  justify-content: end;
+  background-color: #FFEA11;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 10;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
